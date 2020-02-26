@@ -18,7 +18,6 @@ router.post('/', validateUser(), (req, res, next) => {
 
 router.post('/:id/posts', validateUserId(), (req, res, next) => {
   // do your magic!
-
 });
 
 router.get('/', (req, res, next) => {
